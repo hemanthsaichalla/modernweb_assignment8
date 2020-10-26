@@ -1,12 +1,6 @@
 /*eslint-env browser*/
 
-/*
-  Organising employee data where each row is an employee data.
-  Index 0 - Employee id
-  Index 1 - Name
-  Index 2 - Title
-  Index 3 - Extension
- */
+/* Organising employee data where each row is an employee data according to the indices */
 var employeeData = [
   [
      "0",
