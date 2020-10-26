@@ -1,0 +1,77 @@
+body {
+  margin: 0 auto;
+}
+
+form {
+  width: 400px;
+}
+
+.row, .submit_row {
+  width: 100%;
+  height: 35px;
+}
+
+.submit_row { 
+  width: 71%;
+}
+
+.row label {
+  width: 20%;
+  float: left;
+}
+
+.row input[type=text] {
+  width: 50%;
+  float: left;
+  border-color: #6497C6;
+  border-width: 2px;
+}
+
+.row span {
+  color: red;
+}
+
+.row span {
+  margin-left: 10px;
+}
+
+input[type=button] {
+  background-color:#6497C6;
+  color: white;
+  padding: 3px 20px 3px 20px;
+}
+
+.submit_row input[type=button] {
+  float: right;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+tr {
+  width: 100%;
+  background-color:rgb(47, 135, 218);
+  border: 4px solid white;
+}
+
+td, th {
+  padding: 5px; 
+  width: 25%;
+  text-align: left;
+  border: 1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #E8EFF7;
+}
+
+td:last-child {
+  text-align: center;
+}
